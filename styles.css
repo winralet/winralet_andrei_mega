@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2833;
+}
+#name_name-output,#classes-output,#kred-output {
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #1f2833; /* Зеленый цвет, сочетающийся с фоном */
+  color: #49c5b6; /* Цвет текста - белый для контраста */
+  padding: 15px 32px; /* Верхний/нижний и боковой отступы */
+  text-align: center; /* Центрирование текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  display: inline-block; /* Позволяет элементу принимать размеры по содержимому */
+  font-size: 16px; /* Размер шрифта кнопки */
+  border-radius: 5px; /* Скругление углов кнопки */
+  transition: background-color 0.3s ease; /* Плавный переход цвета при наведении */
+  border: none; /* Убираем рамку */
+}
+
+.btn:hover {
+  background-color: #1d2936; /* Более темный зелёный цвет при наведении */
+}
+
+.btn-block {
+  background-color: #ffffff0a;
+  box-shadow: 10 2px 8px rgb(0 0 0 / 100%);
+  color:#49c5b6;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  height: 350px;
+ 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Добавляем плавный переход */
+
+  margin-top:130px;
+}
+
+.btn-block:hover {
+  box-shadow: 0 10px 100000px rgba(0, 0, 0, 0.2); /* Меньшая тень при наведении */
+  transform: scale(0.95); /* Уменьшаем размер элемента (ухождение в себя) */
+}
+
+.btn-block-name{
+margin-top:100px; 
+}
